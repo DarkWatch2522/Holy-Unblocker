@@ -14,6 +14,18 @@ This project serves mostly as a proof of concept for the ideal clientless soluti
 Works with a large number of sites, including YouTube, Discord, and more!
 Also has a good amount of locally hosted games featured on the site.
 
+#### Current Branch: Latest
+<details><summary>Branch Types</summary>
+
+- Latest (master; built for FOSS and SEO)
+- Beta (pending changes; changes that may break things)
+- Stable (v4, v5, v6; stable version of Holy Unblocker LTS)
+- Production (changes for self hosting in production settings; max filtering evasion and request handling)
+</details>
+
+<br>
+
+
 > [!TIP]
 > Curry Unblocker LTS is optimized for self-hosting to provide you with maximum privacy control! Fork this repository and consider starring. You can self-host using either free or paid deployment options, or set it up on a dedicated instance (VPS) for enhanced performance.
 
@@ -39,7 +51,7 @@ Read below for information if the official site is blocked or for obtaining more
 ## Deploy Holy Unblocker
 
 ### Free Deployments
-[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?name=holy-unblocker&type=git&repository=QuiteAFancyEmerald%2FHoly-Unblocker&branch=master&builder=buildpack&env%5B%5D=&ports=8080%3Bhttp%3B%2F)
+[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?name=holy-unblocker&type=git&repository=QuiteAFancyEmerald%2FHoly-Unblocker&branch=v6.3_production&builder=buildpack&env%5B%5D=&ports=8080%3Bhttp%3B%2F)
 [![Deploy to Oracle Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/oraclecloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/BinBashBanana/deploy-buttons/archive/refs/heads/main.zip)
 
 <details><summary>More</summary>
